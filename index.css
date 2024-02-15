@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+#header {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#body {
+    background-color: white;
+}
+
+#userInput{
+    max-width: 120px;
+    font-size: 80px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+button{
+    min-width: 120px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
