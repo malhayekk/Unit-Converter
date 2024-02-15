@@ -13,6 +13,8 @@ body {
 
 #body {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 #userInput {
@@ -25,7 +27,6 @@ body {
     border: 2px solid white;
     border-radius: 5px;
     font-weight: bolder;
-
 }
 
 h1,
@@ -39,4 +40,8 @@ button {
     padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid white;
+}
+
+#body > section{
+    background-color: white;
 }
