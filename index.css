@@ -12,20 +12,23 @@ body {
 }
 
 #body {
-    background-color: white;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #userInput {
     max-width: 120px;
     font-size: 80px;
     padding: 5px 10px;
+    border-radius: 5px;
     text-align: center;
     background-color: purple;
     color: white;
     border: 2px solid white;
-    border-radius: 5px;
     font-weight: bolder;
 }
 
@@ -44,4 +47,7 @@ button {
 
 #body > section{
     background-color: white;
+    text-align: center;
+    min-width: 95%;
+    border-radius: 5px;
 }
